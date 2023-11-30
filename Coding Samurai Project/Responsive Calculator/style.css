@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron:wght@900&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+}
+.button{
+    margin: 0 3px;
+    cursor: pointer;
+    width: 63px;
+    height: 66px;
+    border: 0;
+    font-weight: bolder;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 23px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 4px 2px 2px #104;
+    border-radius: 10px;
+    background-color: rgb(181, 103, 103);
+    background-image: linear-gradient(
+        to top left,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2) 30%,
+        rgba(0, 0, 0, 0)
+    );
+    box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+.button:hover {
+    background-color: rgb(244, 13, 13);
+}
+  
+.button:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+.container{
+    display: flex;
+    width: 319px;
+    height: 460px; 
+    border: 5px inset rgb(11, 22, 45);
+    border-radius: 10px;
+    justify-content: center;
+    padding: 2px;
+}
+.text-center{
+    text-align: center;
+}
+.bg-red{
+   
+      background: #ff0084; 
+      background: -webkit-linear-gradient(to right, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #000000, #c10767); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      background-repeat: no-repeat;
+
+}
+.mx-auto{
+    margin: auto;
+}
+.flex{
+    display: flex;
+    
+}
+.flex-col{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+}
+.head{
+    border: 5px ridge  rgb(2, 32, 50);
+    border-radius: 10px;
+    justify-content: center;
+    font-family: 'Lobster Two', sans-serif;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(112, 31, 252), 0 0 0.2em rgb(59, 59, 255);
+    
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    
+    padding: 2px;
+    display: flex;
+    width: 324px;
+    height: 38.5px;
+    
+    color:bisque;
+    white-space: nowrap;
+    position: absolute;
+    font-size: 33px;
+    top: 2%;
+    
+    
+   
+  } 
+  .head:hover {
+    transition: 0.3s;
+    
+    text-shadow: 1px -1px 0 rgb(225, 6, 6), 1px -2px 0 grey, 1px -3px 0 grey,
+      1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+      1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
+  }
+  
+.row{
+    margin: 8px 0;
+    
+}
+.row>input{
+    font-size: 23px;
+    margin-top: 40px;
+    padding: 10px 0;
+    border: 5px double rgb(90, 136, 155);
+    border-radius: 5px;
+}
+.bg-white{
+    background-color: rgb(146, 181, 211);
+}
+.bg-yellow{
+    background-color: #f99c0f;
+}
+.bg-dark{
+    background-color: rgb(109, 84, 84);
+}
+button:active { 
+    transform: scale(1.1); 
+    /* Scaling button to 0.98 to its original size */ 
+    box-shadow: 3px 2px 22px 1px rgba(180, 24, 24, 0.24); 
+    /* Lowering the shadow */ 
+} 
